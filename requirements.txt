@@ -1,6 +1,13 @@
-streamlit>=1.58.0
-streamlit-webrtc
-ultralytics
+# 1. 기초 연산 및 이미지 처리 (버전 고정 최우선)
 numpy==1.26.4
 opencv-python-headless==4.10.0.84
-av
+
+# 2. 영상 스트리밍 코어
+av>=12.0.0
+
+# 3. YOLO 모델 (headless 전용 대체 패키지 또는 일반 패키지)
+ultralytics
+
+# 4. Streamlit 및 WebRTC 컴포넌트
+streamlit>=1.58.0
+streamlit-webrtc
