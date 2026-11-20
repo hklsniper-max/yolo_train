@@ -1,7 +1,6 @@
 import threading
 import time
 from pathlib import Path
-
 import av
 import cv2
 import numpy as np
