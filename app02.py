@@ -8,7 +8,8 @@ import streamlit as st
 from streamlit_webrtc import VideoProcessorBase, WebRtcMode, webrtc_streamer
 from ultralytics import YOLO
 
-
+yolo_model = YOLO("yolo26n-depth.pt")
+yolo_model = YOLO("yolo11n.pt")
 st.set_page_config(page_title="실시간 근접 객체 경고", page_icon="🚨")
 
 MODEL_SIZE = 480
